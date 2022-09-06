@@ -15,6 +15,201 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-white w-75 mx-auto navbar-light bg-light  mt-5 pb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-2 fw-bold text-black-70" href="#">Prime Edu</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" href="#">Deals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" href="#" tabindex="-1" aria-disabled="true">Success</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fs-5" href="#" tabindex="-1" aria-disabled="true">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-info btn-lg" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+       <!-- slider -->
+
+       <div id="carouselExampleDark" class="carousel carousel-dark slide w-75 m-auto slider" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <div class="shade">
+                    <img src="images\cover\cover-1.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption">
+                    <h1 class="fs-1 fw-bold text-white">Get Started Digital
+                        Learning</h1>
+                    <p class="text-white">In just 4 months, you will become a certified digital marketer and be able to
+                        complete any project.</p>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <div class="shade">
+                    <img src="images\cover\cover-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-md-block">
+                    <h1 class="fs-1 fw-bold text-white">Get Started Digital Learning</h1>
+                    <p class="text-white">In just 4 months, you will become a certified full stack developer and be able
+                        to build complete web and hybrid mobile solutions.</p>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="shade">
+                    <img src="images\cover\cover-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="fs-1 fw-bold text-white ">Get Started Digital
+                        Learning</h1>
+                    <p class="text-white">In just 4 months, you will become a certified full Graphics Designer and be
+                        able to build
+                        complete project.</p>
+                    <button type="button" class="btn btn-primary btn-lg">Get Started</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Courses -->
+    <section class="container ps-5 mt-5 mx-auto">
+        <p class="text-center fs-1 fw-bold mt-5">
+            Discover Our Popular <br> Courses
+        </p>
+        <p class="text-center fs-6 mb-5">
+            Over 4,000 courses in topics like business analytics, graphic design, Python, and more.
+        </p>
+        <div class="row ms-5 gap-3">
+            <div class="card mb-3 col-6 col-md-12 shadow-sm" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4 shadow-sm">
+                        <img src="images\course\course-1.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text text-primary fs-6 fw-bold">Price: 20$
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 col-6 col-md-12 shadow-sm" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images\course\course-2.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Javascript Basic to advanced</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text text-primary fs-6 fw-bold">Price: 20$
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 col-6 col-md-12 shadow-sm" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images\course\course-3.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Fullstack Web Development</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text text-primary fs-6 fw-bold">Price: 20$
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 col-6  d-none d-lg-block" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images\course\course-4.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text text-primary fs-6 fw-bold">Price: 20$
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 col-6 d-none d-lg-block shadow-sm" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images\course\course-5.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Photography Basic Rules</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text text-primary fs-6 fw-bold">Price: 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 col-6 d-none d-lg-block shadow-sm" style="max-width: 540px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="images\course\course-6.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title">Motion Graphics</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text text-primary fs-6 fw-bold">Price: 20$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-grid gap-2 col-lg-4 col-md-3 col-sm-3 mx-auto mt-4 mb-4">
+            <button class="btn btn-primary" type="button">View All</button>
+        </div>
+    </section>
 
 
 
@@ -31,7 +226,7 @@
 
 
 
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script> 
